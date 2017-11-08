@@ -1,56 +1,78 @@
-<!DOCTYPE html>
-<head>
-    <link rel="stylesheet" type="text/css" href="Site.CSS">
-    <script src="https://use.fontawesome.com/5feb832ff7.js"></script>
-    <script type="text/javascript" src="Site.js"></script>
-    <title>FutureOlogy: Home</title>
-</head>
-<body>
-    <section id="header">
-        <header>
-            <h1> Future-Ology</h1>
-            <hr>
-        </header>
-    </section>    
-<!--Header End-->
-    <section id = "nav">
-        <ul id="nav-list">
-            <li class="nav-opt"><a href="#">About</a></li>
-            <li class="nav-opt"><a href="#">Blog</a></li>
-            <li class="nav-opt"><a href="#">Contact</a></li>
-            <li class="search">Search</li>
-        </ul>
-    </section>    
-<!--Nav end -->
-    <section id="banner">
-        <div class="banner-inner">
-            <img src="IMG/FutureOlogyLogo.png">
-        </div>
-    </section>
-<!--Banner image end-->
-    <section id="about">
-        <div id="about-img">
-            <img src="IMG/RodMcLean.jpg">
-        </div>    
-        <p id="about-contents"> hello everyone, my name is Rod and I'm the creator/curator of Future-ology.</p>
-    </section>
-<!--About end-->    
-    <section id="blog">
-        <div id="post-3" class="post standard" on-click="show()"> 
-            <div class="post-container">
-                <div class="post-content-container">
-                    <div class="post-header">    
-                        <h4 class="post-date">Oct 31 2017</h4>
-                        <hr>
-                        <h4 class="entry-title"> Driverless Living </h4>
-                    </div>
-                    <div class="blog-post">
-                        <article>
-                            HEllO EVERYONE AND WELCOME TO THE FIRST POST ON FUTUREOLOGY
-                        </article>   
+<!doctype html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+		<title>Grid layout</title>
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600|Raleway" rel="stylesheet">
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<div class="wrapper">
+            <header id="top-menu">
+                <div class="logo">
+                    <h1>FutureOlogy</h1>
+                </div>
+                <nav class="menu">
+                    <ul class="menu-list">
+                        <li class="menu-list_item"><a class="menu-list_link" href="#">About</a></li>
+                        <li class="menu-list_item"><a class="menu-list_link" href="#">Contact</a></li>
+                        <li class="menu-list_item"><a class="menu-list_link" href="#">Blog</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+			<section id="about" class="container container-one">
+                <div class="container-text">
+                    <h2>About</h2>
+                </div>
+				<div class="container-text">
+					<p>Patronum furnunculus revelio lacarnum sonorus rictusempra immobilus evanesca engorgio. Evanesco sonorus alohomora mobilicorpus. Inflamarae leviosa totalus elixir totalus engorgio. Funnunculus tarantallegra accio momentum mobilicorpus. Mobilicorpus evanesco evanesco sonorus lumos kedavra patronum. Episkey leviosa kedavra mortis.</p>
+					<p>Totalus mobilicorpus mortis scourgify avis vipera langlock portus mobilicorpus tarantallegra. Wingardium stupefy deletrius lumos aparecium crucio patronum mobilicorpus petrificus vow. Locomotor aresto nox legilimens. Portus densaugeo totalus sonorus aparecium lacarnum quodpot. Anapneo funnunculus cushioning anapneo nox expecto finite evanesco skele-gro engorgio evanesco. Charm homorphus serpensortia lumos sonorus lumos immobulus.</p>
+				</div>
+				<div class="container-img container-one_img">
+					<img src="IMG/RodMcLean.jpg" alt="Rod McLean headshot">
+				</div>
+			</section>
+
+			<section id="contact" class="container container-two">
+				<div class="container-text">
+                    <h2>Contact</h2>
+                </div>
+				<div class="container-text">
+					<p>Pepperup tarantallegra evanesco evanesco silencio lacarnum reducio. Imperio babbling unctuous elixir. Tarantallegra wingardium expecto momentum crucio confundus reducio specialis imperturbable immobilus.</p>
+					<p>Protego exume aresto unbreakable stupefy tarantallegra serpensortia. Aparecium legilimens impedimenta tarantallegra legilimens lacarnum sonorous legilimens totalus. Locomotor locomotor accio arania exume. Portus tarantallegra charm- stupefy silencio serpensortia riddikulus aparecium conjunctivitis prior ennervate. Peskipiksi conjunctivitis kedavra locomotor patronum amortentia mobilicorpus quodpot funnunculus. Jinx sectumsempra me nox. Rictusempra unctuous rictusempra imperio leviosa protego densaugeo lacarnum.</p>
+				</div>
+			</section>
+            
+            <section id="blog" class="container container-three">
+				<div class="container-text">
+                    <h2>Blog</h2>
+                </div>
+                <div Class="container-blog">
+                    <div class="post-container">
+                        <div id="post-1" class="post-content-container">
+                            <div class="post-header">    
+                                <h4 class="post-date">Oct 31 2017</h4>
+                                <hr>
+                                <h4 class="entry-title"> Driverless Living </h4>
+                            </div>
+                            <div class="blog-post">
+                                <article>
+                                    HEllO EVERYONE AND WELCOME TO THE FIRST POST ON FUTUREOLOGY
+                                </article>   
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
-</body>
+			</section>
+		</div>
+        <!-- Close grid/flex wrapper -->
+
+		<footer>
+			<div class="footer-item">Item 1</div>
+			<div class="footer-item">Item 2</div>
+			<div class="footer-item">Item 3</div>
+		</footer>
+	</body>
+</html>
