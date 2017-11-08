@@ -108,17 +108,28 @@ body{
         grid-row: 6;
     }
 
+    .container-blog{
+        display: grid;
+        grid-gap: 1em;
+        width: 100%;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
 /*POST formatting*/
 
     .post-container {
+            width: 100%;
+            padding-bottom: 0.5em;
             background-color: white;
+            border-bottom: 0.25em solid #FFD6A3;
         }
 
     .post-header {
         display: inline-block;
         width: 100%;
         height: 4.5em;
-        background-color: white;
+        background: linear-gradient(310deg, #ff7f50, #FFD6A3)
     }
 
     .post-date {
