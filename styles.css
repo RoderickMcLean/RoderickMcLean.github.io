@@ -1,5 +1,4 @@
 /*Over arching formatting*/
-
 *{
     margin: 0;
     padding: 0;
@@ -40,7 +39,7 @@ body{
     }
 
     .menu{
-        background-color: #FFD6A3;
+        background-color: #FFB55C;
         font-family: 'Raleway', sans-serif;
 
         /* -1 means it will take all the available space  */
@@ -61,11 +60,12 @@ body{
         text-align: center;
         padding-top: 10px;
         padding-bottom: 10px;
+        text-decoration: none;
         color: #333;
     }
 
     .menu-list_link:hover{
-        background-color: #FFB55C;
+        background-color: #FF981C;
     }
 
 /*OVERARCHING container formatting*/
@@ -85,6 +85,7 @@ body{
         grid-column: 1/10;
         width: 100%;
         background-color: #FFB55C;
+    
     }
 
     .container-text{
@@ -107,7 +108,7 @@ body{
         padding-top: 35px;
         height: 0;
         max-height: 500px;
-        max-width: 800px
+        max-width: 800px;
         overflow: hidden;
     }
 
