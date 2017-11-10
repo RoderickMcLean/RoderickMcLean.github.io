@@ -9,7 +9,7 @@ $(document).ready(function(){
         $(".blog-post").slideToggle(1000, function(){
             
             var visible = $(".blog-post").is(":visible");
-            $(".read-article").text(visible? " - Collapse Article ":"+ Read Article ");
+            $(".read-article").text(visible? " - Collapse Article ":" + Read Article ");
         }); 
     });
 });
