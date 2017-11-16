@@ -63,7 +63,10 @@ body{
     }
 
     .menu-list_link:hover{
-        background-color: #FFB55C;
+        background: #FFB55C;
+        -webkit-transition:background 0.3s ease-in-out;
+        -moz-transition:background 0.3s ease-in-out;
+        transition:background-color 0.3s ease-in-out;
     }
 
 /*OVERARCHING container formatting*/
@@ -92,7 +95,7 @@ body{
 
     .container-text{
         padding: 16px 32px;
-    }
+}
 
 /*ABOUT section*/
 
@@ -133,10 +136,10 @@ body{
     .container-img img{
         display: block;
         margin: auto;
-        align-items: center;
-        height: 200px;
-        width: 200px;
-        border-radius: 50%;;
+        padding: 10px;
+        height: 250px;
+        width: 250px;
+        border-radius: 50%;
     }
 
 /*BlOG section*/
@@ -233,17 +236,17 @@ body{
 /*FOOTER menu formating*/
 
     footer{
-        margin-top: 48px;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        background-color: #FFB55C;
-    }
+            margin-top: 48px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            background-color: #FFB55C;
+        }
 
     .footer-item{
-        flex-grow: 1;
-        padding: 20px 0;
-    }
+            flex-grow: 1;
+            padding: 20px 0;
+        }
     
 /* Typography formatting */
 

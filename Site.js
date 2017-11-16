@@ -10,6 +10,7 @@ $(document).ready(function(){
             
             var visible = $(".blog-post").is(":visible");
             $(".read-article").text(visible? " - Collapse Article ":" + Read Article ");
+    
         }); 
     });
 });
@@ -29,3 +30,4 @@ $(document).ready(function(){
     } 
   });
 });
+
