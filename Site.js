@@ -4,13 +4,12 @@ alert("This website is still a work in progress.")
 
 $(document).ready(function(){
     
-    $(".read-article").click(function(){
+    $(".read-article").click(function(evt){
         
-        $(".blog-post").slideToggle(1000, function(){
-            
-            var visible = $(".blog-post").is(":visible");
-            $(".read-article").text(visible? " - Collapse Article ":" + Read Article ");
-    
+        article = $(evt.target).prev();
+        $(article).slideToggle(1000, function(){
+            var visible = $(article).is(":visible");
+            $(evt.target).text(visible? " - Collapse Article ":" + Read Article ");
         }); 
     });
 });
